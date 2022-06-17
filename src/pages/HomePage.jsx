@@ -11,7 +11,7 @@ const HomePage = () => {
         <img src={beers} alt="beer" style={{ width: 500 }} />
         <h2>All Beers </h2>
       </Link>
-      <Link to="/random-beer" style={{ marginRight: 50 }}>
+      <Link to="/random" style={{ marginRight: 50 }}>
         <img src={newBeer} alt="beer" style={{ width: 500 }} />
         <h2>Random Beer</h2>
       </Link>

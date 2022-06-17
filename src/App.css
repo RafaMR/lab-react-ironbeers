@@ -13,26 +13,56 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
+  text-align: center;
+  background-color: #3dc4fc;
+  color: white;
+  font-size: 3em;
+  width: 100%;
+}
+
+.beerList {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 0.5rem;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: #333;
+}
+
+button {
+  margin: 0.5rem;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  margin-top: 1em;
+  border-radius: 1em;
+  padding: 0.6em;
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: #3dc4fc;
 }
